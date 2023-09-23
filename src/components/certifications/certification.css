@@ -1,0 +1,130 @@
+.certifications__container{
+    width: var(--container-width-lg);
+    margin: 100px 250px;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 15%;
+}
+
+.certifications__me{
+
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(-45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.certifications__me-image{
+
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+    transition: var(--transition);
+}
+
+.certifications__me-image:hover{
+
+    transform: rotate(0);
+}
+
+.certifications__cards{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.certifications__card{
+
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: .6rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.certifications__card:hover{
+
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+}
+
+.certifications__icon{
+
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.certifications__card h5{
+
+    font-size: 0.95rem;
+}
+
+.certifications__card small{
+
+    font-size: .7rem;
+    color: var(--color-light);
+}
+
+.certifications__content p{
+
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+/* Media queries for medium devices(Tablets) */
+
+@media screen and (max-width: 1024px) {
+
+    .certifications__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-bottom: 100px;
+    }
+
+    .certifications__me{
+
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .certifications__content p{
+
+        margin: 1rem 0 1.5rem;
+    }
+
+
+}
+
+/* Media queries for small devices(Mobiles) */
+
+@media screen and (max-width: 600px) {
+
+    .certifications__me{
+
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .certifications__cards{
+
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .certifications__content{
+        text-align: center;
+    }
+
+    .certifications__content p{
+
+        margin: 1.5rem 0;
+    }
+}
