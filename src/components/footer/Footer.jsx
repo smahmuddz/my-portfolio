@@ -13,7 +13,7 @@ const Footer = () => {
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Skills</a></li>
             <li><a href="#myprojects">My Projects</a></li>
-            <li><a href="#Certifications">My Achievements</a></li>
+            <li><a href="#certifications">My Achievements</a></li>
         </ul>
         <div className="footer__socials">
           <a href="https://www.linkedin.com/in/smahmuddz/"><BsLinkedin/></a>

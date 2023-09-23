@@ -5,7 +5,7 @@ import myImage2 from '../../assets/ewu.png'
 import {GiGraduateCap} from 'react-icons/gi'
 const Certifications = () => {
   return (
-    <section id='Certifications'>
+    <section id='certifications'>
         <h5>My</h5>
       <h2>Certifications and Achievements</h2>
       <div className="container certifications__container">
