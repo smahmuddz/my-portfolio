@@ -21,7 +21,7 @@ const About = () => {
               <article className='about__card'>
                   <GiGraduateCap className='about__icon'/>
                   <h5>Degree</h5>
-                  <small>Bsc.(Hons) Software Engneering(UG) <br /><i>East West University</i></small>
+                  <small>Bsc.(Hons) Computer Science and Engineering, <b>Major: Software Engineering</b> <br /><i>East West University</i></small>
               </article>
               <article className='about__card'>
                   <TfiWorld className='about__icon'/>
